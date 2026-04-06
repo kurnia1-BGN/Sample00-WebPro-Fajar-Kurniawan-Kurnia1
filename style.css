@@ -193,6 +193,25 @@
             padding: 0 5%;
         }
 
+        .hero-content {
+        display: flex;
+        flex-direction: column; /* ⬅ bikin turun ke bawah */
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+        }
+
+        .hero p {
+        color: #333;
+        font-size: 20.5px;
+        max-width: 600px;
+        line-height: 1.5;
+        background: rgba(255,255,255,0.6); /* opsional */
+        padding: 10px;
+        border-radius: 5px;
+        backdrop-filter: blur(3px);
+        }
+
         section {
             width: 100%;
         }
@@ -208,15 +227,6 @@
             /* efek glass */
         }
 
-        h2 {
-            top: 0;
-            left: 0;
-            color: #0077cc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 50px;
-        }
 
         /* section */
         .card-section {
@@ -511,6 +521,11 @@
             /* hero */
             .hero {
                 text-align: center;
+            }
+
+            .hero p {
+            font-size: 14px;
+            padding: 8px;
             }
 
             h1 {

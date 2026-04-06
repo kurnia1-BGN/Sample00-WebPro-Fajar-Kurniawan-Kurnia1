@@ -1,3 +1,5 @@
+https://kurnia1-bgn.github.io/Sample00-WebPro-Fajar-Kurniawan-Kurnia1/
+
 Web ini dibuat berdasarkan web orisinil dengan banyaknya perubahan yang dilakukan agar terlihat efisien.
 Berikut perubahannya adalah:
 
